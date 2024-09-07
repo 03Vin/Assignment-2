@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+
+std::string concatenateStrings(std::string str1, std::string str2) {
+    return str1 + str2;  // Concatenate using +
+}
+
+int main() {
+    std::string str1 = "Hello, ";
+    std::string str2 = "World!";
+    std::cout << concatenateStrings(str1, str2) << std::endl;  // Print concatenated result
+    return 0;
+}
